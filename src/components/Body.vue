@@ -1,6 +1,9 @@
 <template>
 <div class="bodyContainer">
 <span>{{content}}</span>
+<v-btn variant="tonal">
+  Button
+</v-btn>
 </div>
 </template>
 
@@ -16,4 +19,7 @@ export default {
 </script>
 
 <style scoped>
+.bodyContainer {
+  padding: 4vh 8vw;
+}
 </style>
