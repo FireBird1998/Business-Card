@@ -1,5 +1,5 @@
 <template>
-    <div class="backgroundContainer">
+    <div class="headerContainer">
         <img src="../assets/tree-736885__480.jpg" class="backgroundImage">
         <img src="../assets/profile_pic.webp" class="profilePic">
     </div>
@@ -12,18 +12,10 @@ export default {
 </script>
 
 <style scoped>
-.backgroundImage {
-    height: auto;
-    width: 402px;
-}
-.backgroundContainer {
+.headerContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: top;
-    padding: 0px;
-    margin-left: -4px;
-    margin-top: -4px;
 }
 .profilePic {
     height: 200px;
@@ -31,5 +23,9 @@ export default {
     align-self: center;
     margin-top: -110px;
     border-radius: 100px;
+}
+.backgroundImage {
+    height: auto;
+    width: auto;
 }
 </style>
