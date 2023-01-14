@@ -2,7 +2,7 @@
   <div class="bodyContainer">
     <div class="align">
     <span>{{ content }}</span>
-    <v-btn class="websiteButton"> Website </v-btn>
+    <v-btn class="websiteButton" @click="websiteButtonClicked"> Website </v-btn>
     </div>
   </div>
 </template>
@@ -15,6 +15,11 @@ export default {
       default: "",
     },
   },
+  methods: {
+    websiteButtonClicked() {
+      console.log("Button Clicked!");
+    }
+  }
 };
 </script>
 
