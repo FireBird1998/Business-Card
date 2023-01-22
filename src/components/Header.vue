@@ -3,6 +3,7 @@
         <img src="../assets/tree-736885__480.jpg" class="backgroundImage">
         <div class="profilePicContainer">
         <img src="../assets/profile_pic.webp" class="profilePic">
+        <font-awesome-icon icon="fa-solid fa-user-secret" />
         </div>
     </div>
 </template>
