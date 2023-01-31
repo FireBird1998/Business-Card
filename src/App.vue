@@ -2,7 +2,7 @@
   <div>
     <Header></Header>
     <Body :content="about"></Body>
-      </div>
+  </div>
 </template>
 
 <script>

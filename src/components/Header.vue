@@ -1,10 +1,21 @@
 <template>
     <div class="headerContainer">
-        <img src="../assets/tree-736885__480.jpg" class="backgroundImage">
-        <div class="profilePicContainer">
-        <img src="../assets/profile_pic.webp" class="profilePic">
-        <font-awesome-icon icon="fa-solid fa-user-secret" />
-        </div>
+        <v-img
+              src="https://picsum.photos/350/165?random"
+              height="125"
+              cover
+              class="bg-grey-lighten-2"
+            ></v-img>
+        <v-avatar
+            size="80"
+        >
+        <v-img
+              src="https://picsum.photos/350/165?random"
+              height="125"
+              cover
+              class="bg-grey-lighten-2"
+            ></v-img>    
+        </v-avatar>  
     </div>
 </template>
 
@@ -25,23 +36,5 @@ html{
     justify-content: center;
     align-content: center;
 }
-.profilePicContainer{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    padding: 0.5rem;
-    margin-top: -7rem;
-}
-.profilePic {
-    height: 12rem;
-    width: auto;
-    border-radius: 10rem;
-    border: 0.5rem solid rgb(255, 255, 255);
-}
-.backgroundImage {
-    height: auto;
-    width: auto;
-    border-radius: 5px;
-    max-height: 400px;
-}
+
 </style>
